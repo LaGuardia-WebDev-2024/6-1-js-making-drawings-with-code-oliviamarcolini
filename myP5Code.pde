@@ -11,8 +11,52 @@ void draw(){
   strokeWeight(3);
 
   //💡⬇️⬇️⬇️💡 Your Code For This Unit Goes Here
-  ellipse(50,50,100,80);
   
+  // body
+  fill(255, 255, 255);
+  stroke(222, 222, 222);
+  ellipse(200,270,140,130);
+  ellipse(200,200,110,100);
+  
+  // scarf
+  fill(173, 50, 9);
+  stroke(173, 50, 9);
+  ellipse(200,140,75,90);
+  
+  // top 
+  fill(255, 255, 255);
+  stroke(222, 222, 222);
+  ellipse(200,130,80,80);
+  
+  
+  // face
+  strokeWeight(4);
+  stroke(0,0,0);
+  point(200, 153);
+  point(210, 150);
+  point(190, 150);
+  point(180, 142);
+  point(220, 142);
+  point(215, 115);
+  point(185, 115);
+  
+  // nose
+  fill(255, 135, 43);
+  stroke(255, 135, 43);
+  triangle(193,124,193,131,208,128);
+  
+  // buttons
+  strokeWeight(10);
+  stroke(156, 114, 73);
+  point(200,190);
+  point(200,210);
+  point(200,230);
+  point(200,270);
+  point(200,290);
+  point(200,310);
+  
+  //arms
+  strokeWeight(4);
 
 }
 
